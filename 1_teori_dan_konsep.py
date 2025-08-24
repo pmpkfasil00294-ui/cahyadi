@@ -1,12 +1,16 @@
 import streamlit as st
 
-st.header("📏 Teori dan Konsep Pengukuran - Cahyadi Ariansah")
+def show():
+    st.header("📏 Teori dan Konsep Pengukuran")
+    st.write("""
+    Teori pengukuran mencakup:
+    - Definisi pengukuran
+    - Jenis alat ukur
+    - Prinsip kalibrasi
+    - Kesalahan pengukuran (systematic & random error)
+    """)
 
-st.subheader("1. Pengertian Pengukuran")
-st.write("proses penentuan kuantitas atau nilai numerik suatu besaran fisik (seperti panjang, massa, atau suhu) dengan cara membandingkannya terhadap besaran sejenis yang sudah ditetapkan sebagai satuan standar menggunakan alat ukur yang sesuai")
 
-st.subheader("2. Satuan dan Standar")
-st.write("""
 Sistem Internasional (SI) digunakan untuk menyamakan acuan satuan di seluruh dunia.
 Contoh:
 - Panjang: meter (m)
@@ -32,4 +36,5 @@ st.write("""
 st.subheader("4. Rumus Dasar Fisika Terkait Pengukuran")
 st.latex(r"\text{Kecepatan} \ (v) = \frac{\text{jarak} \ (s)}{\text{waktu} \ (t)}")
 st.latex(r"\text{Volume balok} = p \times l \times t")
+
 st.latex(r"\text{Volume silinder} = \pi r^2 t")
