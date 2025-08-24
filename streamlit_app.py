@@ -1,5 +1,5 @@
 import streamlit as st
-import teori_dan_konsep
+import 1_teori_dan_konsep
 import simulasi
 import kuis
 import analisis_data
@@ -45,3 +45,4 @@ elif menu == "🔢 Kuis":
 
 elif menu == "📊 Analisis Data":
     analisis_data.show()
+
